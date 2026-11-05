@@ -1,5 +1,11 @@
+
 {
+  "title": "Último Plato",
+  "language": "es",
   "description": "Conecta a comensales con platos peruanos excedentes a precio rebajado para reservarlos, pagarlos y recogerlos en restaurantes cercanos, reduciendo el desperdicio de comida.",
+  "icons": {
+    "icon": "/favicon.svg"
+  },
   "robots": {
     "index": false
   },
