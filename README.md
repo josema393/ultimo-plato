@@ -62,8 +62,6 @@ npm run preview
 - **Cantidades:** la cantidad seleccionada en el detalle no se transmite actualmente al resumen del pago; el checkout muestra valores fijos.
 - **Acciones no conectadas:** algunos botones informativos y apartados de perfil aún no tienen una acción funcional.
 
-Se recomienda revisar [PRUEBAS_ultimo_plato.md](PRUEBAS_ultimo_plato.md) para ejecutar una evaluación manual y registrar resultados.
-
 ## Estructura principal
 
 ```text
@@ -90,7 +88,7 @@ Las imágenes de ejemplo se cargan desde URLs externas; pueden requerir conexió
 
 ## Estado de las pruebas
 
-La ejecución local y la compilación deben ser verificadas por la persona que prepara la entrega. Los resultados se registrarán en [PRUEBAS_ultimo_plato.md](PRUEBAS_ultimo_plato.md). No se declara que la aplicación haya pasado pruebas automatizadas porque este repositorio todavía no incluye un script de tests.
+El repositorio no incluye pruebas automatizadas. La revisión del prototipo debe realizarse manualmente siguiendo la Guía breve de demostración incluida en este README. La compilación de producción puede verificarse ejecutando `npm run build`.
 
 ## Acceso a la demostración
 
